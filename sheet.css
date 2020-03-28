@@ -32,7 +32,7 @@ div.ds_chainsawxiv_dd4e_simple h1,h2,h3,h4{
 }
 
 div.ds_chainsawxiv_dd4e_simple .top{
-	
+
 }
 
 div.ds_chainsawxiv_dd4e_simple .header{
@@ -43,10 +43,6 @@ div.ds_chainsawxiv_dd4e_simple .header{
 div.ds_chainsawxiv_dd4e_simple .valbar{
 	background-color:#DDDDDD;
 	color:black;
-}
-
-div.ds_chainsawxiv_dd4e_simple .skillbar:nth-of-type(odd){
-	background-color:rgba(0,0,0,0.05);
 }
 
 div.ds_chainsawxiv_dd4e_simple .lable{
@@ -123,17 +119,17 @@ div.ds_chainsawxiv_dd4e_simple .listhead{
 	margin-top:1px;
 }
 
-div.ds_chainsawxiv_dd4e_simple .dsf.fullcolumn, 
+div.ds_chainsawxiv_dd4e_simple .dsf.fullcolumn,
 div.ds_chainsawxiv_dd4e_simple .edit.fullcolumn{
 	width:237px;
 	padding-bottom:4px;
 }
 
-div.ds_chainsawxiv_dd4e_simple.editable  .dsf.fullcolumn, 
+div.ds_chainsawxiv_dd4e_simple.editable  .dsf.fullcolumn,
 div.ds_chainsawxiv_dd4e_simple.editable  .edit.fullcolumn{
 	width:211px;
 }
 
 div.ds_chainsawxiv_dd4e_simple:not(.editable) .tab.tab_manage{
-	display:none;	
+	display:none;
 }
