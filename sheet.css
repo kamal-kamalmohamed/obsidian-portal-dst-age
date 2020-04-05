@@ -72,7 +72,6 @@ div.ds_kamal_fage .list li.item{
 	border-radius:0px;
 }
 
-div.ds_kamal_fage .tab.tab_manage,
 div.ds_kamal_fage .tab.tab_crunch,
 div.ds_kamal_fage .tab.tab_fluff{
 	font-family:arial;
@@ -90,7 +89,6 @@ div.ds_kamal_fage .tab.tab_fluff{
 	position:absolute;
 }
 
-div.ds_kamal_fage .tab.tab_manage.active,
 div.ds_kamal_fage .tab.tab_crunch.active,
 div.ds_kamal_fage .tab.tab_fluff.active{
 		background-color:white;
@@ -128,8 +126,4 @@ div.ds_kamal_fage .edit.fullcolumn{
 div.ds_kamal_fage.editable  .dsf.fullcolumn,
 div.ds_kamal_fage.editable  .edit.fullcolumn{
 	width:211px;
-}
-
-div.ds_kamal_fage:not(.editable) .tab.tab_manage{
-	display:none;
 }
