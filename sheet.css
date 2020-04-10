@@ -4,76 +4,76 @@
 
 /* Parchment Sheet Customization */
 
-div.ds_age_simple .content{
+div.ds_fage_simple .content{
 	color:black;
 	border-bottom:1px solid #AAAAAA;
 	padding-bottom:0px;
 }
 
-div.ds_age_simple .boxfield{
+div.ds_fage_simple .boxfield{
 	border:1px solid #AAAAAA;
 }
 
-div.ds_age_simple .box28{
+div.ds_fage_simple .box28{
 	border:1px solid #AAAAAA;
 }
 
-div.ds_age_simple .box51{
+div.ds_fage_simple .box51{
 	border:1px solid #AAAAAA;
 }
 
-div.ds_age_simple .linefield{
+div.ds_fage_simple .linefield{
 	border-color:#CCCCCC;
 }
 
 
-div.ds_age_simple h1,h2,h3,h4{
+div.ds_fage_simple h1,h2,h3,h4{
 	color:red;
 }
 
-div.ds_age_simple .top{
+div.ds_fage_simple .top{
 
 }
 
-div.ds_age_simple .header{
+div.ds_fage_simple .header{
 	background-color:#999999;
 	color:white;
 }
 
-div.ds_age_simple .valbar{
+div.ds_fage_simple .valbar{
 	background-color:#DDDDDD;
 	color:black;
 }
 
-div.ds_age_simple .lable{
+div.ds_fage_simple .lable{
 	color:#888888;
 }
 
-div.ds_age_simple a{
+div.ds_fage_simple a{
 	text-decoration:none;
 }
 
 /* Optional Link Styles */
 
-div.ds_age_simple .link_address{
+div.ds_fage_simple .link_address{
 	display:none;
 }
 
-div.ds_age_simple .link_active{
+div.ds_fage_simple .link_active{
 	color:#7766AA;
 }
 
-div.ds_age_simple .link_active:hover{
+div.ds_fage_simple .link_active:hover{
 	color:#AA88DD;
 }
 
-div.ds_age_simple .list li.item{
+div.ds_fage_simple .list li.item{
 	border-bottom:1px solid #CCCCCC;
 	border-radius:0px;
 }
 
-div.ds_age_simple .tab.tab_crunch,
-div.ds_age_simple .tab.tab_fluff{
+div.ds_fage_simple .tab.tab_crunch,
+div.ds_fage_simple .tab.tab_fluff{
 	font-family:arial;
 	text-align:center;
 	vertical-align:middle;
@@ -89,41 +89,41 @@ div.ds_age_simple .tab.tab_fluff{
 	position:absolute;
 }
 
-div.ds_age_simple .tab.tab_crunch.active,
-div.ds_age_simple .tab.tab_fluff.active{
+div.ds_fage_simple .tab.tab_crunch.active,
+div.ds_fage_simple .tab.tab_fluff.active{
 		background-color:white;
 		padding-top:16px;
 		margin-top:-1px;
 }
 
-div.ds_age_simple .boxfield{
+div.ds_fage_simple .boxfield{
 	width:22px;
 	height:14px;
 }
 
-div.ds_age_simple .box28{
+div.ds_fage_simple .box28{
 	width:26px;
 }
 
-div.ds_age_simple .box51{
+div.ds_fage_simple .box51{
 	width:49px;
 }
 
-div.ds_age_simple .labelrow{
+div.ds_fage_simple .labelrow{
 	margin-top:2px;
 }
 
-div.ds_age_simple .listhead{
+div.ds_fage_simple .listhead{
 	margin-top:1px;
 }
 
-div.ds_age_simple .dsf.fullcolumn,
-div.ds_age_simple .edit.fullcolumn{
+div.ds_fage_simple .dsf.fullcolumn,
+div.ds_fage_simple .edit.fullcolumn{
 	width:237px;
 	padding-bottom:4px;
 }
 
-div.ds_age_simple.editable  .dsf.fullcolumn,
-div.ds_age_simple.editable  .edit.fullcolumn{
+div.ds_fage_simple.editable  .dsf.fullcolumn,
+div.ds_fage_simple.editable  .edit.fullcolumn{
 	width:211px;
 }
