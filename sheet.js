@@ -1,6 +1,6 @@
 // Global Options
 csx_opts = {
-	'setupCallback': function(item){chainsawxiv_dd4e_simple_setup(item);},
+	'setupCallback': function(item){fage_simple_setup(item);},
 	'uiContainer': function(){return document;},
 	'defaultFieldValue':'',
 	'imagePath':'https://chainsawxiv.github.io/DST/common/images/',
@@ -35,12 +35,12 @@ csx_opts = {
 };
 
 // Pre-Load Configuration
-function chainsawxiv_dd4e_simple_dataPreLoad(opts){
+function fage_simple_dataPreLoad(opts){
 	aisleten.characters.jeditablePlaceholder = csx_opts.defaultFieldValue;
 }
 
 // Master Startup
-function chainsawxiv_dd4e_simple_dataPostLoad(data){
+function fage_simple_dataPostLoad(data){
 
 	csx_opts.defaultContext = document.getElementById(data.containerId);	
 	csx_opts.uiContainer = csx_opts.defaultContext.querySelector('.uicontainer');
@@ -79,7 +79,7 @@ function chainsawxiv_dd4e_simple_dataPostLoad(data){
 }
 
 // Setup After Script Load
-function chainsawxiv_dd4e_simple_setup(context){
+function fage_simple_setup(context){
 
 	// Provide default context
 	if (context == undefined)
@@ -94,7 +94,7 @@ function chainsawxiv_dd4e_simple_setup(context){
 }
 
 // Shutdown Before Save
-function chainsawxiv_dd4e_simple_dataPreSave(){
+function fage_simple_dataPreSave(){
 
 	// Default the context if not set
 	var context = csx_opts.defaultContext;
