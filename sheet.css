@@ -127,3 +127,61 @@ div.ds_fage_simple.editable  .dsf.fullcolumn,
 div.ds_fage_simple.editable  .edit.fullcolumn{
 	width:211px;
 }
+
+/* Checks Interface */
+
+.csx .check{
+	position:relative;
+	bottom:3px;
+	margin:0px 3px 4px 0px;
+}
+
+.csx .check .checkMark{
+	display:inline-block;
+	width:12px;
+	height:12px;
+}
+
+.editable .csx .checkMark{
+	cursor:pointer;
+}
+
+.csx .check .checkBorder{
+	display:inline-block;
+	height:12px;
+	width:12px;
+}
+
+.csx .check .checkOff{
+	background-image:url('https://chainsawxiv.github.io/DST/sheets/lphillips_exalted_sidereal/images/check-0.png');
+	background-size:10px;
+	background-position:1px 2px;
+	background-repeat:no-repeat;
+}
+
+.editable .csx .check .checkOff:hover{
+	background-image:url('https://chainsawxiv.github.io/DST/sheets/lphillips_exalted_sidereal/images/check-0.png');
+	background-size:10px;
+	background-position:1px 2px;
+	background-repeat:no-repeat;
+}
+
+.csx .check .checkOn{
+	background-image:url('https://chainsawxiv.github.io/DST/sheets/lphillips_exalted_sidereal/images/check-1.png');
+	background-size:10px;
+	background-position:1px 2px;
+	background-repeat:no-repeat;
+}
+
+.editable .csx .check .checkOn:hover{
+	background-image:url('https://chainsawxiv.github.io/DST/sheets/lphillips_exalted_sidereal/images/check-1.png');
+	background-size:10px;
+	background-position:1px 2px;
+	background-repeat:no-repeat;
+}
+
+.csx .check.autobalance .checkMark{
+	background-position: 1px 3px;
+	position: relative;
+	left: 2px;
+}
