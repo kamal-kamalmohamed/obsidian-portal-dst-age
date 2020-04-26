@@ -128,6 +128,15 @@ div.ds_fage_simple.editable  .edit.fullcolumn{
 	width:211px;
 }
 
+.csx .tipBox .contentBox{
+	background: white;
+}
+
+.csx .tipBox .contentBox .tipArea,
+.csx .tipBox .contentBox .tipArea:hover{
+	color:#000000;
+}
+
 /* Checks Interface */
 
 .csx .check{
