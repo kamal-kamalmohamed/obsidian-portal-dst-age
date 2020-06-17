@@ -45,6 +45,24 @@ div.ds_fage_simple .valbar{
 	color:black;
 }
 
+div.ds_fage_simple .headeredit{
+	font-weight:bold;
+}
+
+/* This is extracted from .csx.valbar */
+div.ds_fage_simple .textblock{
+	background-color:#DDDDDD;
+	color:black;
+	position:relative;
+	height:16px;
+	width:236px;
+	margin-left:2px;
+	margin-bottom:2px;
+	padding-bottom:2px;
+	font-size:9pt;
+	vertical-align:top;
+}
+
 div.ds_fage_simple .lable{
 	color:#888888;
 }
