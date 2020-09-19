@@ -10,6 +10,10 @@ div.ds_fage_simple .content{
 	padding-bottom:0px;
 }
 
+div.ds_fage_simple .section.doublecolumn{
+	width:484px;
+}
+
 div.ds_fage_simple .boxfield{
 	border:1px solid #AAAAAA;
 }
@@ -90,6 +94,10 @@ div.ds_fage_simple .list li.item{
 	border-radius:0px;
 }
 
+div.ds_fage_simple .list.doublecolumn{
+	width:474px;
+}
+
 div.ds_fage_simple .tab.tab_crunch,
 div.ds_fage_simple .tab.tab_fluff{
 	font-family:arial;
@@ -135,6 +143,10 @@ div.ds_fage_simple .listhead{
 	margin-top:1px;
 }
 
+div.ds_fage_simple .listhead.doublecolumn{
+	width:474px;
+}
+
 div.ds_fage_simple .dsf.fullcolumn,
 div.ds_fage_simple .edit.fullcolumn{
 	width:237px;
@@ -144,6 +156,15 @@ div.ds_fage_simple .edit.fullcolumn{
 div.ds_fage_simple.editable  .dsf.fullcolumn,
 div.ds_fage_simple.editable  .edit.fullcolumn{
 	width:211px;
+}
+
+div.ds_fage_simple.editable .dsf.doublecolumn,
+div.ds_fage_simple.editable .edit.doublecolumn{
+	width:422px;
+}
+
+div.ds_fage_simple .column.double{
+	width:484px;
 }
 
 .csx .tipBox .contentBox{
